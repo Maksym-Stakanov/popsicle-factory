@@ -2,7 +2,7 @@
 
 This a simple web-api that allows to do basic CRUD operations with Popsicles items.
 
-Web-Api is implemented using .Net 6, CFunctionalExtension, Clear Archtitecture and RESTfull api Design.
+Web-Api is implemented using .Net 6, CSharpFunctionalExtension, Clear Archtitecture and RESTfull api Design.
 
 In current version all operations can be tested using swagger. No UI WebApps added.
 
