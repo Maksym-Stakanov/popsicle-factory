@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopsicleFactory.Api", "PopsicleFactory.Api\PopsicleFactory.Api.csproj", "{F1BA032D-9283-4561-A929-0122F55C92D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopsicleFactory.Core", "PopsicleFactory.Core\PopsicleFactory.Core.csproj", "{DF8A07FE-E2E9-47E8-A67F-A95FC711C17F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopsicleFactory.InMemoryRepository", "PopsicleFactory.InMemoryRepository\PopsicleFactory.InMemoryRepository.csproj", "{37C6DE7D-D4FC-4268-AECD-4547BE5A9F0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{53C126BA-FB6D-4512-8C91-9D18ED9118FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopsicleFactory.Core.Tests", "PopsicleFactory.Core.Tests\PopsicleFactory.Core.Tests.csproj", "{AD83E77B-5A9C-4448-8543-B0122AF413C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1BA032D-9283-4561-A929-0122F55C92D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BA032D-9283-4561-A929-0122F55C92D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BA032D-9283-4561-A929-0122F55C92D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BA032D-9283-4561-A929-0122F55C92D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8A07FE-E2E9-47E8-A67F-A95FC711C17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8A07FE-E2E9-47E8-A67F-A95FC711C17F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8A07FE-E2E9-47E8-A67F-A95FC711C17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8A07FE-E2E9-47E8-A67F-A95FC711C17F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37C6DE7D-D4FC-4268-AECD-4547BE5A9F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37C6DE7D-D4FC-4268-AECD-4547BE5A9F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37C6DE7D-D4FC-4268-AECD-4547BE5A9F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37C6DE7D-D4FC-4268-AECD-4547BE5A9F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD83E77B-5A9C-4448-8543-B0122AF413C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD83E77B-5A9C-4448-8543-B0122AF413C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD83E77B-5A9C-4448-8543-B0122AF413C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD83E77B-5A9C-4448-8543-B0122AF413C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD83E77B-5A9C-4448-8543-B0122AF413C8} = {53C126BA-FB6D-4512-8C91-9D18ED9118FC}
+	EndGlobalSection
+EndGlobal
